@@ -16,4 +16,6 @@ int main(void)
     {
         b[i] = a[i];
     }
+    printf("%s\n",b);
+    free(a);
 }
